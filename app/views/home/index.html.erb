@@ -1,0 +1,29 @@
+<div ng-app="bower-yarn" ng-controller="IndexController">
+  
+<h1>Home#index</h1>
+
+<button ng-click="exibirAlertBower()">Click</button>
+
+
+</div>
+
+<script type="text/javascript">
+  
+  angular 
+    .module('bower-yarn', ['19degrees.ngSweetAlert2'])
+    .controller("IndexController", IndexController)
+
+    IndexController.$inject = ['$scope', 'sweetAlert']
+
+    function IndexController($scope, sweetAlert) {
+
+      $scope.exibirAlertBower = function() {
+
+        sweetAlert.swal({title: 'Bower', text: 'Sweet alert running from bower components'});
+      }
+
+
+    }
+
+</script>
+

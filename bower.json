@@ -1,0 +1,21 @@
+{
+  "name": "bower-yarn",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Gustavo Fe <gustavo.fe@al.go.leg.br>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "sweetalert2": "^7.20.1",
+    "angular-sweetalert-2": "latest"
+  }
+}

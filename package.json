@@ -1,0 +1,11 @@
+{
+  "name": "bower-yarn",
+  "private": true,
+  "dependencies": {
+    "angular": "^1.7.0"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Gustavo Fe <gustavo.fe@al.go.leg.br>",
+  "license": "MIT"
+}
