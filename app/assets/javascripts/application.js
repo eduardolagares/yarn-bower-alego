@@ -15,4 +15,3 @@
 //= require angular/angular
 //= require angular-sweetalert-2/SweetAlert
 //= require sweetalert2/dist/sweetalert2
-//= require_tree .
